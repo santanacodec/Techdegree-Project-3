@@ -19,6 +19,12 @@ h2 {
 	font-size: 20px;
 }
 
+p {
+	font-weight: lighter;
+	color: gray;
+	font-size: 15px;
+}
+
 h1, h2, p {
 	text-align: center;
 }
@@ -86,6 +92,15 @@ textarea, select {
 input[type="radio"],
 input[type="checkbox"] {
   margin: 0 8px 8px 0;
+}
+
+input[type="text"],
+input[type="email"]::placeholder {
+	text-align: right;
+	font-weight: lighter;
+	font-size: 13px;
+	font-style: italic;
+	color: gray;
 }
 
 #zip {
