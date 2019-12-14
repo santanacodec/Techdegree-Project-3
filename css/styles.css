@@ -1,6 +1,22 @@
+* {
+	box-sizing: border-box;
+}
 
 body {
 	font-family: 'Merriweather', serif;
+	margin: 0;
+}
+
+header h1{
+	background-color: #2d3945;
+	color: white;
+	margin-top: 0;
+	padding: 20px;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 20px;
 }
 
 h1, h2, p {
@@ -8,11 +24,96 @@ h1, h2, p {
 }
 
 form {
+	padding: 15px;
 	margin: auto;
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding-top: 3px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 25px;
 }
 
 textarea {
 	resize: none;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+label.light {
+  display: inline;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4ebbb5;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea, select {
+	width: 100%;
+	background-color: #eff0f1;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	padding: 15px;
+	height: auto;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 8px 8px 0;
+}
+
+#zip {
+	width: 150px;
+}
+
+.form-top {
+	display: block;
+	width: 100%;
+	border-bottom: 4px solid #2d3945;
+}
+
+.contact {
+	display: block;
+	width: 100%;
+	border-top: 2px solid #2d3945;
+	padding-top: 20px;
+}
+
+.newsletter {
+	display: block;
+	width: 100%;
+	border-top: 2px solid #2d3945;
+	padding-top: 20px;
+}
+
+.option-title {
+	padding-top: 20px;
 }
 
 /* Media Queries */
