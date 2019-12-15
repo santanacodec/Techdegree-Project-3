@@ -34,6 +34,10 @@ form {
 	margin: auto;
 }
 
+hr {
+	border: 1px solid #2d3945;
+}
+
 fieldset {
 	border: none;
 	margin: 0;
@@ -140,14 +144,12 @@ footer p{
 .contact {
 	display: block;
 	width: 100%;
-	border-top: 2px solid #2d3945;
 	padding-top: 20px;
 }
 
 .newsletter {
 	display: block;
 	width: 100%;
-	border-top: 2px solid #2d3945;
 	padding-top: 20px;
 }
 
