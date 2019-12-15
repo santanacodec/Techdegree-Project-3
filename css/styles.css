@@ -55,6 +55,13 @@ textarea {
 label {
 	display: block;
 	margin-bottom: 8px;
+	font-size: 15px;
+	color: #617383;
+}
+
+#select-news {
+	font-size: 15px;
+	font-weight: lighter;
 }
 
 label.light {
@@ -74,6 +81,11 @@ button {
   border: none;
 }
 
+input:focus,
+textarea:focus {
+	outline-color: #46698B;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -91,16 +103,28 @@ textarea, select {
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 0 8px 8px 0;
+  margin: 0 8px 20px 0px;
 }
 
-input[type="text"],
+input[type="text"]::placeholder,
 input[type="email"]::placeholder {
 	text-align: right;
 	font-weight: lighter;
 	font-size: 13px;
 	font-style: italic;
 	color: gray;
+}
+
+label[for="topics"] {
+	padding-top: 15px;
+}
+
+footer p{
+	padding-bottom: 200px;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 14px;
+	color: silver;
 }
 
 #zip {
@@ -130,6 +154,7 @@ input[type="email"]::placeholder {
 .option-title {
 	padding-top: 20px;
 }
+
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
